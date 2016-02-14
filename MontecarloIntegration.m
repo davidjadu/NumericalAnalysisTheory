@@ -1,6 +1,6 @@
 e=10^-3;
 p=0.85;
-N=floor(9/((p)*(e^2)));
+N=floor(4/((p)*((e/2)^2)));
 counter = 0;
 for i =0:N
     x=rand(3,1);
